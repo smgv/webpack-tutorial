@@ -44,9 +44,9 @@ module.exports = {
   // fo that we need to use loaders
   module: {
     rules: [
-      // To handle the scss files
+      // To handle the scss | css | etc files
       {
-        test: /\.scss$/,
+        test: /\.(scss|css)$/,
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       // babel loader is used to convert the ES6 code to ES5
