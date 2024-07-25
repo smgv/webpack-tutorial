@@ -8,10 +8,15 @@
 `without webpack.config.js if you want to run than use - node_modules/.bin/webpack`
 
 ```js
+package.json
+"scripts": {
+...
 // create the build
 "build": "webpack",
 // it triggers the devServer
 "dev": "webpack serve"
+...
+}
 ```
 
 ```js
